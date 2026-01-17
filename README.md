@@ -1,9 +1,14 @@
-# ARIMA Stock Price Prediction
+# Trading Projects
 
-Note: This is an older project that needed to be updated and uploaded because its on my CV.
+A collection of quantitative finance projects I built while learning about algorithmic trading and time series analysis. Note: I'm not a quant, just a student exploring these concepts.
 
-This is a simple project I made to learn about time series forecasting using ARIMA models. I'm not a quant or anything, just wanted to understand how these statistical models work for predicting stock prices.
+## Projects
 
-The code fetches historical stock data (I used Apple), splits it into training and test sets, and then compares two approaches: a basic moving average (just averaging the last few days) versus an ARIMA model which is more sophisticated and looks at patterns in the data. The ARIMA model ended up being about 38% more accurate than the simple moving average, which was pretty cool to see.
+### [ARIMA Price Prediction](./arima-prediction/)
+Time series forecasting using ARIMA models to predict stock prices. Compares against a moving average baseline.
 
-I used Python with yfinance for data, statsmodels for ARIMA, and matplotlib for the charts. Run `python main.py` to see the results.
+### [GA Strategy Optimizer](./ga-optimizer/)
+Uses genetic algorithms to optimize trading strategy parameters. Evolves MA crossover settings to maximize returns.
+
+---
+*These are older projects updated and uploaded for my CV.*
