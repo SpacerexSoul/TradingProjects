@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Project specific
+*.png
+!forecast_vs_actual.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
